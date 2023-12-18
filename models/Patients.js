@@ -30,5 +30,5 @@ const Patients = mongoose.Schema(
         timestamps: true 
     }
 )
-
+module.EXPORTS = Patients;
 const Product = mongoose.model('Product', productschema);
