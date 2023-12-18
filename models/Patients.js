@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 
 const emergencyConstant = mongoose.Schema(
 {
-        EmergencyContactName : {type: String}, 
+        EmergencyContactName : {type: String, required : [true, "Please enter Emergency Contact's name"]}, 
         PatientID:{type: String,required : [true, "Please enter Patient's name"]},
         Surname:{type: String},
         OtherName:{type: String},

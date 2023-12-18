@@ -5,11 +5,9 @@ const app = express()
 
 //routes
 app.get('/',(req, res)=>{
-    res.send('Hello NODE API')
+    res.send('Backend IA')
 })
-app.get('/blog',(req, res)=>{
-    res.send('Hello BLOG hi')
-})
+
 
 
 
